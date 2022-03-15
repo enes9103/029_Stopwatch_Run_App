@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script&family=Indie+Flower&family=Sansita+Swashed&family=Source+Sans+Pro&family=Supermercado+One&display=swap">
+    <title>Stop Watch Run</title>
+
+</head>
+<body>
+    <div class="container">
+        <video id="myVideo" class = "video" width="320" height="176">
+            <source src="RUN - TRAIL RUNNING 2018 - GOPRO HERO 6 (1440p_60fps_VP9-128kbit_AAC)_Trim.mp4" type="video/mp4">
+        </video>
+        <div class="timer">
+            <p>
+                <span class="mins">00</span>:<span class="seconds">00</span>:<span class="milliseconds">00</span>
+            </p> 
+        </div>    
+        <div class="buttons">
+            <i class="fa-solid fa-circle-play start"></i>
+            <i  style="display: none;"class="fa-solid fa-circle-pause pause"></i>
+            <i class="fa-solid fa-circle-stop stop"></i>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
